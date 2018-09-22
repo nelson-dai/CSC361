@@ -1,0 +1,447 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+<!-- START from includeStandardHead.vm -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Style-Type" content="text/css">
+
+<!-- this causes problems for layout needs investigating -->
+    <link href="home_files/portalstyles.css" type="text/css" rel="stylesheet" media="all">
+<!--[if gte IE 5]><![if lt IE 7]>
+    <link href="/portal/styles/portalstyles-ie5.css" type="text/css" rel="stylesheet" media="all" />
+<![endif]><![endif]-->
+<link href="home_files/portal.css" type="text/css" rel="stylesheet" media="all">
+
+
+    <title>conneX : CSC 361: 201509 A01 : Home</title>
+<link href="home_files/tool_base.css" type="text/css" rel="stylesheet" media="all">
+<link href="home_files/tool.css" type="text/css" rel="stylesheet" media="all">
+
+     <script type="text/javascript" language="JavaScript" src="home_files/headscripts.js"></script>
+     <script type="text/javascript" language="JavaScript" src="home_files/jquery.js"></script>
+
+<script type="text/javascript" language="JavaScript" src="home_files/portalscripts.js"></script>
+
+<script type="text/javascript" language="JavaScript">
+    setLoginStatus (true, "https://connex.csc.uvic.ca/portal", "https://connex.csc.uvic.ca/portal", "a6112951-9a84-468c-b5b9-3a5311378599", "waynez");
+    setTimeoutInfo (true, 600);
+    setUIToggleState (true, true, false);
+</script>
+    
+</head>
+<!-- END from includeStandardHead.vm -->
+<body class="portalBody">
+	<script type="text/javascript" language="JavaScript">
+	var sakaiPortalWindow = "";
+	</script>
+<!-- END Header -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        var toggleClass=""
+                    toggleClass="toggleTools"
+                        $('#toggler').css({'display' : 'block'});
+        $('#toggler').addClass(toggleClass)
+
+        $('#toggleToolMenu').click(function(){
+            if ( $('#toggleNormal').is(':visible') ) {
+                sakaiRestoreNavigation();	
+                document.cookie = "sakai_nav_minimized=false; path=/";
+            } else {
+                sakaiMinimizeNavigation();
+                document.cookie = "sakai_nav_minimized=true; path=/";
+            }
+        });
+    });
+</script>
+<!-- site.vm -->
+
+<!-- start includeSiteNav -->
+<div id="portalOuterContainer">
+        <div id="portalContainer">
+		<div id="skipNav">
+		
+			<a href="#tocontent" class="skip" title="jump to content" accesskey="c">
+			jump to content
+			</a>
+			<a href="#totoolmenu" class="skip" title="jump to tools list" accesskey="l">
+				jump to tools list
+			</a>
+			<a href="#sitetabs" class="skip" title="jump to worksite list" accesskey="w">
+				jump to worksite list
+			</a>
+		</div>
+				<div id="headerMax">
+			<div id="siteNavWrapper" class="course">
+				<div id="mastHead">
+					<div id="mastLogo">
+						<img title="Logo" alt="Logo" src="home_files/logo_inst.gif">
+					</div>
+					<div id="mastBanner">
+						<img title="Banner" alt="Banner" src="home_files/banner_inst.gif">
+					</div>
+					<!-- login component -->
+					<div id="mastLogin">
+											<div id="loginLinks">
+																			<a href="https://connex.csc.uvic.ca/portal/logout" title="Logout" id="loginLink1">Logout</a>
+																		</div>
+										</div>
+					<!-- end login component -->
+				</div>
+			</div>
+
+<!-- START from includeTabs.vm -->
+			<!-- start includeTabs -->
+			<div class="siteNavWrap course">
+				<div id="siteNav">
+					<div id="linkNav">
+						<a id="sitetabs" class="skip" name="sitetabs"></a>
+							<h1 class="skip">Worksites begin here</h1>
+							<ul id="siteLinkList">
+																												<li><a href="https://connex.csc.uvic.ca/portal/site/%7Ewaynez" title="My Workspace"><span>My Workspace</span></a></li>
+																																											<li><a href="https://connex.csc.uvic.ca/portal/site/cc8ad3de-01cf-4045-b55d-5ddb3c93ddd6" title="CSC 225: 201409 A01"><span>CSC 225: 201409 A01</span></a></li>
+																																											<li><a href="https://connex.csc.uvic.ca/portal/site/17ea90b3-d585-41ca-8fda-8767aca053e9" title="Student Jobs"><span>Student Jobs</span></a></li>
+																																											<li><a href="https://connex.csc.uvic.ca/portal/site/34ea018f-8986-4c80-8690-99d835bdfe48" title="SENG 265: 201409 A01"><span>SENG 265: 201409 A01</span></a></li>
+																																											<li><a href="https://connex.csc.uvic.ca/portal/site/e1732fe8-0805-4594-815c-ad5fcd6516b1" title="CSC 226: 201501 A01"><span>CSC 226: 201501 A01</span></a></li>
+																																											<li><a href="https://connex.csc.uvic.ca/portal/site/1508f9cc-3d83-4e8b-96bf-6032484fde2f" title="CSC 360: 201505 A01"><span>CSC 360: 201505 A01</span></a></li>
+																																											<li class="selectedTab"><a href="#"><span>CSC 361: 201509 A01</span></a></li>
+																																											<li><a href="https://connex.csc.uvic.ca/portal/site/2d8b1342-da0a-49d3-9c7c-8cb32cd1778a" title="CSC 320: 201509 A01"><span>CSC 320: 201509 A01</span></a></li>
+																																											<li><a href="https://connex.csc.uvic.ca/portal/site/a68f32da-2e53-4318-8a09-b4a34a96bf4c" title="CSC 115: 201405 A01"><span>CSC 115: 201405 A01</span></a></li>
+																																											<li><a href="https://connex.csc.uvic.ca/portal/site/366b500a-4233-4fc4-81b2-b507aa93779d" title="CSC 110: 201401 A01"><span>CSC 110: 201401 A01</span></a></li>
+																																	</ul>
+					</div> <!-- /linkNav -->
+
+																			</div>
+				<div class="divColor" id="tabBottom">
+				</div>
+					
+
+								<div id="selectNav" style="display:none">
+					<div>
+						<span class="skip">To operate the combo box, first press Alt+Down 
+Arrow to open it, and then use the up and down arrow keys to scroll 
+through the options.</span>
+
+											<div class="termContainer">
+   													<h4>AdminOnly</h4>
+													<ul>
+																					<li><a href="https://connex.csc.uvic.ca/portal/site/17ea90b3-d585-41ca-8fda-8767aca053e9" title="Student Jobs">
+									<span>Student Jobs</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div class="termContainer">
+   													<h4>201409 1</h4>
+													<ul>
+																					<li><a href="https://connex.csc.uvic.ca/portal/site/cc8ad3de-01cf-4045-b55d-5ddb3c93ddd6" title="CSC 225: 201409 A01">
+									<span>CSC 225: 201409 A01</span>
+								</a></li>
+																												<li><a href="https://connex.csc.uvic.ca/portal/site/34ea018f-8986-4c80-8690-99d835bdfe48" title="SENG 265: 201409 A01">
+									<span>SENG 265: 201409 A01</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div class="termContainer">
+   													<h4>201505 1</h4>
+													<ul>
+																					<li><a href="https://connex.csc.uvic.ca/portal/site/1508f9cc-3d83-4e8b-96bf-6032484fde2f" title="CSC 360: 201505 A01">
+									<span>CSC 360: 201505 A01</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div class="termContainer">
+   													<h4>OTHER</h4>
+													<ul>
+																					<li><a href="https://connex.csc.uvic.ca/portal/site/%7Ewaynez" title="My Workspace">
+									<span>My Workspace</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div class="termContainer">
+   													<h4>201501 1</h4>
+													<ul>
+																					<li><a href="https://connex.csc.uvic.ca/portal/site/e1732fe8-0805-4594-815c-ad5fcd6516b1" title="CSC 226: 201501 A01">
+									<span>CSC 226: 201501 A01</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div class="termContainer">
+   													<h4>201405 1</h4>
+													<ul>
+																					<li><a href="https://connex.csc.uvic.ca/portal/site/a68f32da-2e53-4318-8a09-b4a34a96bf4c" title="CSC 115: 201405 A01">
+									<span>CSC 115: 201405 A01</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div class="termContainer">
+   													<h4>201509 1</h4>
+													<ul>
+																					<li><a href="https://connex.csc.uvic.ca/portal/site/2d8b1342-da0a-49d3-9c7c-8cb32cd1778a" title="CSC 320: 201509 A01">
+									<span>CSC 320: 201509 A01</span>
+								</a></li>
+																												<li><a href="https://connex.csc.uvic.ca/portal/site/042cb208-f318-4511-a00a-083d6587a152" title="CSC 361: 201509 A01">
+									<span>CSC 361: 201509 A01</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div class="termContainer">
+   													<h4>201401 1</h4>
+													<ul>
+																					<li><a href="https://connex.csc.uvic.ca/portal/site/366b500a-4233-4fc4-81b2-b507aa93779d" title="CSC 110: 201401 A01">
+									<span>CSC 110: 201401 A01</span>
+								</a></li>
+																				</ul>
+						</div> <!-- /termContainer -->
+											<div id="more_tabs_instr"><em>Hidden Sites</em> are not included in this menu. Access them in My Workspace -&gt; Worksite Setup.<br> To hide a site, go to My Workspace -&gt; Preferences -&gt; Customize Tabs.</div>
+					</div> <!-- /  -->
+				</div> <!-- /selectNav -->
+					
+			</div> <!-- /tabsCssClass -->
+				 									 									 									 									 									 									 					    					  									 									 									 									<!-- end includeTabs -->
+<!-- END from includeTabs.vm -->
+
+
+		</div>
+		
+<!-- START from includePageWithNav.vm -->
+	<div id="container" class="course">
+	
+<!-- START from includePageNav.vm -->
+		<!-- start includePageNav -->
+			<div class="divColor" id="toolMenuWrap">
+							<div class="toggleTools" style="display: block;" id="toggler">
+					<a id="toggleToolMenu" onmouseup="blur()" href="#" title="Expand/Contract Navigation"><img id="toggleToolMax" src="home_files/transMin.bin" alt="Expand/Contract Navigation"><img id="toggleNormal" src="home_files/transMin.bin" alt="Expand/Contract Navigation" style="display:none"></a>
+				</div>
+							<div id="worksiteLogo">
+											<p id="siteType">course</p>
+										</div>
+                        				<a id="totoolmenu" class="skip" name="totoolmenu"></a>
+				<h1 class="skip">Tools begin here</h1>
+				<div id="toolMenu">
+					<ul>
+					  								<li class="selectedTool">
+						<a class="icon-sakai-iframe-site"><span>Home</span></a>
+						</li>
+		  							  				  			 						<li>
+							<a class="icon-sakai-schedule " href="https://connex.csc.uvic.ca/portal/site/042cb208-f318-4511-a00a-083d6587a152/page/3a9c7f6e-28ca-4699-bd00-901cc588867b" title="For posting and viewing deadlines, events, etc."><span>Schedule</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-announcements " href="https://connex.csc.uvic.ca/portal/site/042cb208-f318-4511-a00a-083d6587a152/page/0acfea8a-2bad-4397-99ec-b7062767b037" title="For posting current, time-critical information"><span>Announcements</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-resources " href="https://connex.csc.uvic.ca/portal/site/042cb208-f318-4511-a00a-083d6587a152/page/fb585a16-c72c-4a08-a647-75b61743101e" title="For posting documents, URLs to other websites, etc."><span>Resources</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-assignment-grades " href="https://connex.csc.uvic.ca/portal/site/042cb208-f318-4511-a00a-083d6587a152/page/9a0b57ec-2098-4fa5-b871-e6d22a1a5b39" title="For posting, submitting and grading assignment(s) online"><span>Assignments</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-gradebook-tool " href="https://connex.csc.uvic.ca/portal/site/042cb208-f318-4511-a00a-083d6587a152/page/c1715b3f-62f0-4ba6-acf8-58c14edce480" title="For storing and computing assessment grades from Tests &amp; Quizzes or that are manually entered"><span>Gradebook</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-chat " href="https://connex.csc.uvic.ca/portal/site/042cb208-f318-4511-a00a-083d6587a152/page/c0544c54-b1af-44d4-b354-b9819c48a7da" title="For real-time conversations in written form"><span>Chat Room</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-mailbox " href="https://connex.csc.uvic.ca/portal/site/042cb208-f318-4511-a00a-083d6587a152/page/74b47097-460e-4519-b4ec-f660d88a1eae" title="For viewing email sent to the site"><span>Email Archive</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-iframe " href="https://connex.csc.uvic.ca/portal/site/042cb208-f318-4511-a00a-083d6587a152/page/e36b13d7-afde-40b8-b67b-e36f771839d8" title="For accessing an external website within the site"><span>Lectures</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-site-roster " href="https://connex.csc.uvic.ca/portal/site/042cb208-f318-4511-a00a-083d6587a152/page/20f68bac-e3a7-4133-8a91-b36dd3a16892" title="For viewing the site participants list"><span>Roster</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-siteinfo " href="https://connex.csc.uvic.ca/portal/site/042cb208-f318-4511-a00a-083d6587a152/page/b04ea844-dcb3-4766-b567-5d4b2b0feb8e" title="For showing worksite information and site participants"><span>Site Info</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-jforum-tool " href="https://connex.csc.uvic.ca/portal/site/042cb208-f318-4511-a00a-083d6587a152/page/bfd096ca-fd27-4409-ba27-935496954fab" title="For participating in discussions and communicating privately with site members."><span>Discussion and Private Messages</span></a>
+						</li>
+		   					  							  				  			 						<li>
+							<a class="icon-sakai-messages " href="https://connex.csc.uvic.ca/portal/site/042cb208-f318-4511-a00a-083d6587a152/page/41b4a149-1cae-44d8-a025-04825372eed7" title="Display messages to/from users of a particular site"><span>Messages</span></a>
+						</li>
+		   					  														 <li>
+								<a class="icon-sakai-help" accesskey="6" href="https://connex.csc.uvic.ca/portal/help/main" target="_blank" onclick="openWindow('https://connex.csc.uvic.ca/portal/help/main', 
+									'Help', 'resizable=yes,toolbar=no,scrollbars=yes,menubar=yes,width=800,height=600'); 
+									return false" title="Help">
+									<span>Help</span>
+								</a>
+						 </li>
+								</ul>
+				</div>
+				
+			<!-- Add subsite lists -->
+										<h1 class="skip">Users present begins here</h1>
+				<div id="presenceWrapper">
+					<div id="presenceTitle">Users present:</div>
+				<div id="presenceIframe">
+<ul class="presenceList">
+<li class="inChat"><span title="Currently in Chat">YuWei Zhang</span></li>
+<li><span title="Currently in Site">Miles Barr</span></li>
+<li><span title="Currently in Site">Mohammad Bin Abdulsalam</span></li>
+<li><span title="Currently in Site">Dustin Bolink</span></li>
+<li><span title="Currently in Site">Bridget Rassell</span></li>
+<li><span title="Currently in Site">Zihan Ye</span></li>
+</ul>
+</div>
+<script type="text/javascript">
+var sakaiPresenceTimeDelay = 3000;
+var sakaiPresenceFragment = "https://connex.csc.uvic.ca/portal/presence/042cb208-f318-4511-a00a-083d6587a152?output_fragment=yes&auto=true";
+
+$(document).ready(function() {
+    sakaiLastPresenceTimeOut = setTimeout('updatePresence()', sakaiPresenceTimeDelay); 
+} );
+</script>
+				</div>
+						</div>
+			<a id="tocontent" class="skip" name="tocontent"></a>
+			<h1 class="skip">Content begins here</h1>
+		<!-- end includePageNav -->
+		<!-- end page nav -->
+<!-- END from includePageNav.vm -->
+
+
+	
+<!-- START from includePageBody.vm -->
+					<div id="content">
+						<div id="col1of2">
+												<!-- start Tool -->
+													<div class="portletTitleWrap">
+								<div class="portletTitle">
+									<div class="title">
+																<h2>Site Information Display</h2>
+									</div>
+									<div class="action">
+																											<a href="https://connex.csc.uvic.ca/portal/help/main?help=sakai.iframe.site" title="Help for Site Information Display" target="_blank" onclick="openWindow('https://connex.csc.uvic.ca/portal/help/main?help=sakai.iframe.site', 'Help',
+								  'resizable=yes,toolbar=no,scrollbars=yes,menubar=yes,width=800,height=600'); return false">
+																<img src="home_files/transparent.gif" alt="Help for Site Information Display" border="0"></a>
+															</div>
+								</div>
+							</div>
+											<!-- end Tool -->
+					<!-- start Tool Body -->						
+													<div class="portletMainWrap">
+							    <iframe style="height: 221px;" name="Main2963187ex0600x45c6x9fb7x2122f945e4cd" id="Main2963187ex0600x45c6x9fb7x2122f945e4cd" title="Site Information Display " class="portletMainIframe" marginwidth="0" marginheight="0" scrolling="auto" src="home_files/2963187e-0600-45c6-9fb7-2122f945e4cd.html" frameborder="0" height="781" width="100%">
+</iframe>
+							</div>
+											<!-- end Tool Body -->												
+											</div>
+							<div id="col2of2">
+														<!-- start include tool -->
+					<!-- start Tool Col2 -->
+													<div class="portletTitleWrap">
+								<div class="portletTitle">
+									<div class="title">
+																<h2>Recent Announcements</h2>
+									</div>
+									<div class="action">
+																											<a href="https://connex.csc.uvic.ca/portal/help/main?help=sakai.announcements" title="Help for Recent Announcements" target="_blank" onclick="openWindow('https://connex.csc.uvic.ca/portal/help/main?help=sakai.announcements', 'Help',
+								  'resizable=yes,toolbar=no,scrollbars=yes,menubar=yes,width=800,height=600'); return false">
+																<img src="home_files/transparent.gif" alt="Help for Recent Announcements" border="0"></a>
+															</div>
+								</div>
+							</div>
+											<!-- end Tool Col2 -->
+					<!-- start Tool Body -->
+													<div class="portletMainWrap">
+							    <iframe style="height: 220px;" name="Main8ef4a322x94edx4628xb271xfce3fc47cc36" id="Main8ef4a322x94edx4628xb271xfce3fc47cc36" title="Recent Announcements " class="portletMainIframe" marginwidth="0" marginheight="0" scrolling="auto" src="home_files/8ef4a322-94ed-4628-b271-fce3fc47cc36.html" frameborder="0" height="475" width="100%">
+</iframe>
+							</div>
+											<!-- end Tool Body -->												
+					<!-- end include tool -->
+																			<!-- start include tool -->
+					<!-- start Tool Col2 -->
+													<div class="portletTitleWrap">
+								<div class="portletTitle">
+									<div class="title">
+												                <a href="https://connex.csc.uvic.ca/portal/tool-reset/e28b0ec9-bd87-4028-af04-f0cc3cc80e6c/?panel=Main" target="Maine28b0ec9xbd87x4028xaf04xf0cc3cc80e6c" title="Reset">
+						                        <img src="home_files/transparent.gif" alt="Reset" border="1"></a>
+																<h2>Calendar</h2>
+									</div>
+									<div class="action">
+																											<a href="https://connex.csc.uvic.ca/portal/help/main?help=sakai.summary.calendar" title="Help for Calendar" target="_blank" onclick="openWindow('https://connex.csc.uvic.ca/portal/help/main?help=sakai.summary.calendar', 'Help',
+								  'resizable=yes,toolbar=no,scrollbars=yes,menubar=yes,width=800,height=600'); return false">
+																<img src="home_files/transparent.gif" alt="Help for Calendar" border="0"></a>
+															</div>
+								</div>
+							</div>
+											<!-- end Tool Col2 -->
+					<!-- start Tool Body -->
+													<div class="portletMainWrap">
+							    <iframe style="height: 160px;" name="Maine28b0ec9xbd87x4028xaf04xf0cc3cc80e6c" id="Maine28b0ec9xbd87x4028xaf04xf0cc3cc80e6c" title="Calendar " class="portletMainIframe" marginwidth="0" marginheight="0" scrolling="auto" src="home_files/e28b0ec9-bd87-4028-af04-f0cc3cc80e6c.html" frameborder="0" height="475" width="100%">
+</iframe>
+							</div>
+											<!-- end Tool Body -->												
+					<!-- end include tool -->
+																			<!-- start include tool -->
+					<!-- start Tool Col2 -->
+													<div class="portletTitleWrap">
+								<div class="portletTitle">
+									<div class="title">
+																<h2>Message Center Notifications</h2>
+									</div>
+									<div class="action">
+																											<a href="https://connex.csc.uvic.ca/portal/help/main?help=sakai.synoptic.messagecenter" title="Help for Message Center Notifications" target="_blank" onclick="openWindow('https://connex.csc.uvic.ca/portal/help/main?help=sakai.synoptic.messagecenter', 'Help',
+								  'resizable=yes,toolbar=no,scrollbars=yes,menubar=yes,width=800,height=600'); return false">
+																<img src="home_files/transparent.gif" alt="Help for Message Center Notifications" border="0"></a>
+															</div>
+								</div>
+							</div>
+											<!-- end Tool Col2 -->
+					<!-- start Tool Body -->
+													<div class="portletMainWrap">
+							    <iframe style="height: 88px;" name="Main20351433x76fex4542x947dx48a5c0540425" id="Main20351433x76fex4542x947dx48a5c0540425" title="Message Center Notifications " class="portletMainIframe" marginwidth="0" marginheight="0" scrolling="auto" src="home_files/20351433-76fe-4542-947d-48a5c0540425.html" frameborder="0" height="475" width="100%">
+</iframe>
+							</div>
+											<!-- end Tool Body -->												
+					<!-- end include tool -->
+																			<!-- start include tool -->
+					<!-- start Tool Col2 -->
+													<div class="portletTitleWrap">
+								<div class="portletTitle">
+									<div class="title">
+																<h2>Recent Chat Messages</h2>
+									</div>
+									<div class="action">
+																											<a href="https://connex.csc.uvic.ca/portal/help/main?help=sakai.chat" title="Help for Recent Chat Messages" target="_blank" onclick="openWindow('https://connex.csc.uvic.ca/portal/help/main?help=sakai.chat', 'Help',
+								  'resizable=yes,toolbar=no,scrollbars=yes,menubar=yes,width=800,height=600'); return false">
+																<img src="home_files/transparent.gif" alt="Help for Recent Chat Messages" border="0"></a>
+															</div>
+								</div>
+							</div>
+											<!-- end Tool Col2 -->
+					<!-- start Tool Body -->
+													<div class="portletMainWrap">
+							    <iframe style="height: 199px;" name="Mainb46c2d83x734ex4d6bxa855x254be7a7172a" id="Mainb46c2d83x734ex4d6bxa855x254be7a7172a" title="Recent Chat Messages " class="portletMainIframe" marginwidth="0" marginheight="0" scrolling="auto" src="home_files/b46c2d83-734e-4d6b-a855-254be7a7172a.html" frameborder="0" height="475" width="100%">
+</iframe>
+							</div>
+											<!-- end Tool Body -->												
+					<!-- end include tool -->
+													</div>
+						</div>
+			<div>
+			<!-- include bottom -->
+						<div id="footer">
+				<div class="footerExtNav">
+					<ul id="footerLinks"><li><span><a href="https://connex.csc.uvic.ca/portal/site/%21gateway">Gateway</a></span></li><li><span><a href="https://connex.csc.uvic.ca/portal/pda">Mobile View</a></span></li><li><span><a href="https://connex.csc.uvic.ca/portal/site/itsupport">ITSupport</a></span></li><li><span><a href="http://www.csc.uvic.ca/">CSc Department</a></span></li><li><span><a href="http://www.engr.uvic.ca/">Faculty of Engineering</a></span></li><li><span><a href="http://www.uvic.ca/">University of Victoria</a></span></li></ul>
+				</div>
+				<div id="footerInfo">
+								<a href="http://sakaiproject.org/" target="_blank">
+					 <img src="home_files/sakai_powered.gif" alt="Powered by Sakai" border="0">
+					 <span class="skip"> (Opens in a new window)</span>
+					</a>
+						<!-- end include Bottom -->
+				</div>
+				<div class="sakaiCopyrightInfo">Copyright 2003-2012, University of Victoria.<br>
+					conneX - MAINT BRANCH - Sakai 2.8.x (Kernel 1.2.6)- Server cnxprd3
+				</div>
+			</div>
+					</div>
+					<!-- end includePageBody -->
+<!-- END from includePageBody.vm -->
+	</div>
+<!-- END from includePageWithNav.vm -->
+
+	</div>
+</div>
+<!-- end includeSiteNav -->
+<!-- end site.vm -->
+	
+
+</body></html>

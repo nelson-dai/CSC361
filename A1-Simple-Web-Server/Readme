@@ -1,0 +1,33 @@
+CSC361 A01 
+Nelson Dai V00815253
+Feb 7th 2017			
+
+1.Files/directory in p1.tar.gz: Testfile.sh; Makefile; Readme.txt; sws.c; www(test directory)
+2.Code design: Here is the very brief pseudo code of my implementation:
+	
+		initialize client's address info.
+                initialize server's address info.
+                check command line argument(# of argument, port number, serving directory)
+		create a new socket
+                bind the socket in local ip address
+                record server's info.(port, ip address)
+		create a new thread for listening 'q' press 
+                while 1 do:
+			'q' is not pressed continue
+			initialize server output and client response data
+			add time stamp and client address info to the server output
+			process the request and append the file content of length 1k by 1k to the http response. 
+                        send the client response.
+				output the server result.
+		end
+
+
+3.I am using a template from online source for both socket part and the terminator method(press q to exit) and modified them inorder 
+ to make them work perfectly for my code. 
+
+
+Socket: http://www.programminglogic.com/sockets-programming-in-c-using-udp-datagrams/  
+
+thread: http://stackoverflow.com/questions/1798511/how-to-avoid-press-enter-with-any-getchar 
+				
+
